@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/images/todd-diemer-SEFR62Upnqw-unsplash.jpg');
+    background-size: cover;
+}
+
+p, h3 {
+    color: #C9C5B1;
+    font-family: "Open Sans", sans-serif;
+}
+
+#content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content div, #content h2 {
+    padding-top: 1em;
+}
+
+h2 {
+    font-size: 5rem;
+    color: #C9C5B1;
+    font-family: "Bilbo Swash Caps", cursive;
+}
+
+nav {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;  
+}
+
+header {
+    width: 100%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #C9C5B1;
+    font-size: 1em;
+    padding-bottom: 0.5em; 
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.2s ease;
+}
+
+button:hover {
+    border-bottom: 2px solid #C9C5B1;
+ 
+}
